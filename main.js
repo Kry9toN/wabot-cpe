@@ -3,7 +3,7 @@ const fetch = require('node-fetch')
 const fs = require('fs');
 const { Client } = require('whatsapp-web.js');
 
-
+const client = new Client()
 const database = fs.readFileSync('db.json')
 const data = JSON.parse(database)
 const prefix = '!'
