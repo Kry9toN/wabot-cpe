@@ -14,11 +14,12 @@ function search(value) {
             return i
         }
     }
+    return false
 }
 
 function dataInformation(index) {
     const d = data[index]
-    return `No Unit: ${d.cn}\nLokasi Unit: ${d.lokasi}\nStatus Antena: ${d.status_antena}\nStatus CPE: ${d.status_cpe}`
+    return `🚜 No Unit: ${d.cn}\n📍 Lokasi Unit: ${d.lokasi}\n📡 Status Antena: ${d.status_antena}\n📟 Status CPE: ${d.status_cpe}`
 }
 
 function changeValue(typedata, value, index) {
@@ -39,39 +40,44 @@ client.on('ready', () => {
 })
 
 client.on('message', message => {
-    const messageSplit = message.bodysplit(" ")
+    console.info(`[!] Recived message "${message.body}" from ${message.from}`)
+    const messageSplit = message.body.split(" ")
     const cmd = messageSplit[0]
     const agr1 = messageSplit[1]
     const agr2 = messageSplit[2]
 
-    if (!cmd.startWith(prefix)) return
+    if (!message.body.startsWith(prefix)) return
 
     if (cmd === '!s') {
-        message.reply(dataInformation(search(agr1)));
+        const indexData = search(agr1)
+        if (!indexData) return message.reply('Data tidak terdapat di database😭')
+        message.reply(dataInformation(indexData))
     }
 
     if (cmd === '!antena') {
         const index = search(agr1)
+        if (agr2 != 'done' || agr2 != 'belum') return message.reply('🚨 Eitss, mau ngapain?')
         try {
             changeValue('antena', agr2.toUpperCase(), search(agr1))
-            message.reply('Data berhasil di update.')
+            message.reply('Data berhasil di update✅.')
         } catch(err) {
-            message.reply(`Terjadi error!!\nLog: ${err}`)
+            return message.reply(`Terjadi error!!\nLog: ${err}`)
         }
     }
 
     if (cmd === '!cpe') {
         const index = search(agr1)
+        if (agr2 != 'done' || agr2 != 'belum') return message.reply('🚨 Eitss, mau ngapain?')
         try {
             changeValue('cpe', agr2.toUpperCase(), search(agr1))
         } catch(err) {
             return message.reply(`Terjadi error!!\nLog: ${err}`)
         }
-        message.reply('Data berhasil di update.')
+        message.reply('Data berhasil di update✅.')
     }
 
     if (cmd === '!ping') {
-         message.reply(`🏓Pong.. ${Date.now() - message.timestamp}ms`)
+         message.reply('🏓Pong..')
     }
 })
 
