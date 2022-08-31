@@ -1,6 +1,8 @@
 const qrcode = require('qrcode-terminal')
 const fetch = require('node-fetch')
 const fs = require('fs');
+const xlsx = require(‘xlsx’);
+
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const { MessageMedia } = require('whatsapp-web.js');
 const { ChartJSNodeCanvas } = require('chartjs-node-canvas');
@@ -136,6 +138,27 @@ function changeValue(typedata, value, index) {
     }
 }
 
+function convertExcelFileToJsonUsingXlsx() {
+    // Read the file using pathname
+    const file = xlsx.readFile('./tempexcel.xlsx');
+    // Grab the sheet info from the file
+    const sheetNames = file.SheetNames;
+    const totalSheets = sheetNames.length;
+    // Variable to store our data 
+    let parsedData = [];
+    // Loop through sheets
+    for (let i = 0; i < totalSheets; i++) {
+        // Convert to json using xlsx
+        const tempData = xlsx.utils.sheet_to_json(file.Sheets[sheetNames[i]]);
+        // Skip header row which is the colum names
+        tempData.shift();
+        // Add the sheet's json to our data array
+        parsedData.push(...tempData);
+    }
+ // call a function to save the data in a json file
+ return parsedData;
+}
+
 client.on('qr', qr => {
     qrcode.generate(qr, {small: true})
 })
@@ -191,6 +214,18 @@ client.on('message', message => {
              const media = new MessageMedia('image/png', base64Image);
              message.reply(media)
          })
+    }
+
+    if (message.hasMedia) {
+        message.downloadMedia().then((media) => {
+            if (media.filename.includes('xlsx')) {
+                const base64 = media.replace(/^data:image\/png;base64,/, '')
+                fs.writeFile('tempexcel.xlsx', base64, {encoding: 'base64'}, function(err) {
+                    const exceljson = convertExcelFileToJsonUsingXlsx()
+                    message.reply(exceljson)
+                });
+            }
+        })
     }
 })
 
