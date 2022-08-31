@@ -1,12 +1,117 @@
 const qrcode = require('qrcode-terminal')
 const fetch = require('node-fetch')
 const fs = require('fs');
-const { Client } = require('whatsapp-web.js');
+const { Client, LocalAuth } = require('whatsapp-web.js');
+const { MessageMedia } = require('whatsapp-web.js');
+const { ChartJSNodeCanvas } = require('chartjs-node-canvas');
 
-const client = new Client()
+const client = new Client({
+    authStrategy: new LocalAuth()
+})
 const database = fs.readFileSync('db.json')
 const data = JSON.parse(database)
 const prefix = '!'
+
+const width = 524;   // define width and height of canvas
+const height = 524;
+const backgroundColour = 'white'
+const canvasRenderService = new ChartJSNodeCanvas({width, height, backgroundColour});
+
+function countantena(value) {
+    let hasil = 0
+    for(let i = 0; i < data.length; i++) {
+        if (data[i].lokasi.includes(value) && data[i].status_antena.includes('DONE')) {
+            hasil += 1
+        }
+    }
+    return hasil
+}
+
+function countcpe(value) {
+    let hasil = 0
+    for(let i = 0; i < data.length; i++) {
+        if (data[i].lokasi.includes(value) && data[i].status_cpe.includes('DONE')) {
+            hasil += 1
+        }
+    }
+    return hasil
+}
+
+function countbelum(value) {
+    let hasil = 0
+    for(let i = 0; i < data.length; i++) {
+        if (value == 'antena') {
+            if (data[i].status_antena.includes('BELUM')) {
+                hasil += 1
+            }
+        }
+        if (value == 'cpe') {
+            if (data[i].status_cpe.includes('BELUM')) {
+                hasil += 1
+            }
+        }
+    }
+    return hasil
+}
+
+const createImage = async () => {
+    const pdykAnt = countantena('PEDAYAK')
+    const kgrAnt = countantena('KANGURU')
+    const plknAnt = countantena('PELIKAN')
+    const belumAnt = countbelum('antena')
+
+    const pdykCpe = countcpe('PEDAYAK')
+    const kgrCpe = countcpe('KANGURU')
+    const plknCpe = countcpe('PELIKAN')
+    const belumCpe = countbelum('cpe')
+    const configuration = {
+        type: 'pie',
+        data: {
+              labels: [`PEDAYAK(Antena: ${pdykAnt}, CPE: ${pdykCpe})`, `KANGURU(Antena: ${kgrAnt}, CPE: ${kgrCpe})`, `PELIKAN(Antena: ${plknAnt}, CPE: ${plknCpe})`, `BELUM(Antena: ${belumAnt}, CPE: ${belumCpe})`],
+              datasets: [{
+                  label: "Antena",
+                  data: [pdykAnt, kgrAnt, plknAnt, belumAnt],
+                  backgroundColor: ['rgba(255, 99, 140, 1)', 'rgba(25, 99, 140, 1)', 'rgba(2, 254, 140, 1)',  'rgba(150, 150, 159, 1)'],
+              },
+              {
+                  label: "CPE",
+                  data: [pdykCpe, kgrCpe, plknCpe, belumCpe],
+                  backgroundColor: ['rgba(255, 99, 140, 1)', 'rgba(25, 99, 140, 1)', 'rgba(2, 254, 140, 1)', 'rgba(150, 150, 150, 1)',],
+              }
+              ],
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'Unit OB KPCS'
+                }
+            }
+        },
+    }
+
+    const dataUrl = await canvasRenderService.renderToDataURL(configuration); // converts chart to image
+    return dataUrl;
+};
+
+function dataURLtoFile(dataurl, filename) {
+
+        var arr = dataurl.split(','),
+            mime = arr[0].match(/:(.*?);/)[1],
+            bstr = atob(arr[1]),
+            n = bstr.length,
+            u8arr = new Uint8Array(n);
+
+        while(n--){
+            u8arr[n] = bstr.charCodeAt(n);
+        }
+
+        return new File([u8arr], filename, {type:mime});
+    }
 
 function search(value) {
     for(let i = 0; i < data.length; i++) {
@@ -56,7 +161,7 @@ client.on('message', message => {
 
     if (cmd === '!antena') {
         const index = search(agr1)
-        if (agr2 != 'done' || agr2 != 'belum') return message.reply('🚨 Eitss, mau ngapain?')
+        if (agr2 != 'done' && agr2 != 'belum') return message.reply('🚨 Eitss, mau ngapain?')
         try {
             changeValue('antena', agr2.toUpperCase(), search(agr1))
             message.reply('Data berhasil di update✅.')
@@ -67,7 +172,7 @@ client.on('message', message => {
 
     if (cmd === '!cpe') {
         const index = search(agr1)
-        if (agr2 != 'done' || agr2 != 'belum') return message.reply('🚨 Eitss, mau ngapain?')
+        if (agr2 != 'done' && agr2 != 'belum') return message.reply('🚨 Eitss, mau ngapain?')
         try {
             changeValue('cpe', agr2.toUpperCase(), search(agr1))
         } catch(err) {
@@ -78,6 +183,14 @@ client.on('message', message => {
 
     if (cmd === '!ping') {
          message.reply('🏓Pong..')
+    }
+
+    if (cmd === '!status') {
+         createImage().then((t) => {
+             const base64Image = t.replace(/^data:image\/png;base64,/, "");
+             const media = new MessageMedia('image/png', base64Image);
+             message.reply(media)
+         })
     }
 })
 
