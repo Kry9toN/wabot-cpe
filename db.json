@@ -1,337 +1,2343 @@
 [
-{"no":"1","cn":"DT3209","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"2","cn":"DT3217","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"3","cn":"DT3242","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"4","cn":"DT3286","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"5","cn":"DT3388","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"6","cn":"DT3413","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"7","cn":"DT3415","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"8","cn":"DT3422","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"9","cn":"DT3438","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"10","cn":"DT3439","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"11","cn":"DT3441","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"12","cn":"DT3461","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"13","cn":"DT3465","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"14","cn":"DT3466","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"15","cn":"DT3483","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"16","cn":"DT3511","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"17","cn":"DT3539","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"18","cn":"DT3541","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"19","cn":"DT3602","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"20","cn":"DT3637","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"21","cn":"DT3642","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"22","cn":"DT3681","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"23","cn":"DT3685","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"24","cn":"DT3713","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"25","cn":"DT3718","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"26","cn":"DT3722","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"27","cn":"DT3728","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"28","cn":"DT3731","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"29","cn":"DT3743","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"30","cn":"DT3750","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"31","cn":"DT3758","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"32","cn":"DT3759","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"33","cn":"DT3766","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"34","cn":"DT3779","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"35","cn":"DT3781","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"36","cn":"DT3784","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"37","cn":"DT3788","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"38","cn":"DT3791","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"39","cn":"DT3798","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"40","cn":"DT3801","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"41","cn":"DT3815","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"42","cn":"DT3835","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"43","cn":"DT3850","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"44","cn":"DT3871","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"45","cn":"DT3873","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"46","cn":"DT3905","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"47","cn":"DT3907","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"48","cn":"DT3913","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"49","cn":"DT3935","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"50","cn":"DT3944","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"51","cn":"DT3946","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"52","cn":"DT3947","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"53","cn":"DT3997","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"54","cn":"DT4000","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"55","cn":"DT4002","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"56","cn":"DT4011","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"57","cn":"DT4016","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"58","cn":"DT4018","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"59","cn":"DT4062","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"60","cn":"DT4076","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"61","cn":"DT4085","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"62","cn":"DT4095","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"63","cn":"DT4107","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"64","cn":"DT4111","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"65","cn":"DT4205","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"66","cn":"DT4207","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"67","cn":"DT4228","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"68","cn":"DT4250","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"69","cn":"DT4294","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"70","cn":"DT4313","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"71","cn":"DT4315","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"72","cn":"DT4326","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"73","cn":"DT4328","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"74","cn":"DT4329","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"75","cn":"DT4360","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"76","cn":"DT4362","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"77","cn":"DT4363","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"78","cn":"DT4419","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"79","cn":"DT4497","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"80","cn":"DT4498","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"81","cn":"DT4586","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"82","cn":"DT4588","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"83","cn":"DT4595","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"84","cn":"DT4601","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"85","cn":"DT4604","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"86","cn":"DT4728","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"87","cn":"DT4753","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"88","cn":"DT4782","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"89","cn":"DT4796","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"90","cn":"DT4797","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"91","cn":"DT4798","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"92","cn":"DT4832","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"93","cn":"DT4838","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"94","cn":"DT4842","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"95","cn":"DT4845","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"96","cn":"DT4846","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"97","cn":"DT4847","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"98","cn":"DT4857","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"99","cn":"DT4858","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"100","cn":"DT4873","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"101","cn":"DT4907","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"102","cn":"DT4912","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"103","cn":"DT4914","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"104","cn":"DT4962","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"105","cn":"DT4964","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"106","cn":"DT4983","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"107","cn":"DT4984","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"108","cn":"DT5000","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"109","cn":"DT5001","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"110","cn":"DT5002","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"111","cn":"DT5003","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"112","cn":"DT5007","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"113","cn":"DT5008","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"114","cn":"DT5009","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"115","cn":"DT5013","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"116","cn":"DT5018","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"117","cn":"DT5019","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"118","cn":"DT5029","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"119","cn":"DT5030","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"120","cn":"DT5033","lokasi":"PEDAYAK","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"121","cn":"DT5035","lokasi":"PEDAYAK","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"122","cn":"DT5243","lokasi":"PEDAYAK","status_antena":"","status_cpe":""},
-{"no":"123","cn":"DT5244","lokasi":"PEDAYAK","status_antena":"","status_cpe":""},
-{"no":"1","cn":"DT3219","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"2","cn":"DT3371","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"3","cn":"DT3484","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"4","cn":"DT3596","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"5","cn":"DT3636","lokasi":"PELIKAN","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"6","cn":"DT3744","lokasi":"PELIKAN","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"7","cn":"DT3755","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"8","cn":"DT3778","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"9","cn":"DT3822","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"10","cn":"DT3870","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"11","cn":"DT3876","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"12","cn":"DT3881","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"13","cn":"DT3914","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"14","cn":"DT3951","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"15","cn":"DT3966","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"16","cn":"DT4066","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"17","cn":"DT4097","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"18","cn":"DT4138","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"19","cn":"DT4213","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"20","cn":"DT4292","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"21","cn":"DT4306","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"22","cn":"DT4310","lokasi":"PELIKAN","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"23","cn":"DT4312","lokasi":"PELIKAN","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"24","cn":"DT4346","lokasi":"PELIKAN","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"25","cn":"DT4359","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"26","cn":"DT4380","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"27","cn":"DT4382","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"28","cn":"DT4417","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"29","cn":"DT4592","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"30","cn":"DT4596","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"31","cn":"DT4599","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"32","cn":"DT4602","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"33","cn":"DT4750","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"34","cn":"DT4759","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"35","cn":"DT4799","lokasi":"PELIKAN","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"36","cn":"DT4800","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"37","cn":"DT4801","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"38","cn":"DT4817","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"39","cn":"DT4819","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"40","cn":"DT4836","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"41","cn":"DT4844","lokasi":"PELIKAN","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"42","cn":"DT4856","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"43","cn":"DT4859","lokasi":"PELIKAN","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"44","cn":"DT4876","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"45","cn":"DT4941","lokasi":"PELIKAN","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"46","cn":"DT4942","lokasi":"PELIKAN","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"47","cn":"DT4985","lokasi":"PELIKAN","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"48","cn":"DT5010","lokasi":"PELIKAN","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"49","cn":"DT5026","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"50","cn":"DT5028","lokasi":"PELIKAN","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"51","cn":"DT5031","lokasi":"PELIKAN","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"1","cn":"DT3154","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"2","cn":"DT3221","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"3","cn":"DT3222","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"4","cn":"DT3228","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"5","cn":"DT3283","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"6","cn":"DT3292","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"7","cn":"DT3440","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"8","cn":"DT3464","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"9","cn":"DT3467","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"10","cn":"DT3497","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"11","cn":"DT3499","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"12","cn":"DT3562","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"13","cn":"DT3570","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"14","cn":"DT3582","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"15","cn":"DT3583","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"16","cn":"DT3586","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"17","cn":"DT3633","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"18","cn":"DT3641","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"19","cn":"DT3645","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"20","cn":"DT3684","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"21","cn":"DT3723","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"22","cn":"DT3724","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"23","cn":"DT3730","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"24","cn":"DT3749","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"25","cn":"DT3756","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"26","cn":"DT3757","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"27","cn":"DT3762","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"28","cn":"DT3771","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"29","cn":"DT3772","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"30","cn":"DT3775","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"31","cn":"DT3777","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"32","cn":"DT3780","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"33","cn":"DT3789","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"34","cn":"DT3790","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"35","cn":"DT3797","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"36","cn":"DT3806","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"37","cn":"DT3807","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"38","cn":"DT3809","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"39","cn":"DT3811","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"40","cn":"DT3824","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"41","cn":"DT3840","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"42","cn":"DT3872","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"43","cn":"DT3874","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"44","cn":"DT3875","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"45","cn":"DT3877","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"46","cn":"DT3878","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"47","cn":"DT3903","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"48","cn":"DT3904","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"49","cn":"DT3906","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"50","cn":"DT3916","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"51","cn":"DT3931","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"52","cn":"DT3932","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"53","cn":"DT3937","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"54","cn":"DT3938","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"55","cn":"DT3940","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"56","cn":"DT3943","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"57","cn":"DT3959","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"58","cn":"DT3960","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"59","cn":"DT3961","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"60","cn":"DT3998","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"61","cn":"DT4019","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"62","cn":"DT4030","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"63","cn":"DT4040","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"64","cn":"DT4060","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"65","cn":"DT4061","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"66","cn":"DT4064","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"67","cn":"DT4065","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"68","cn":"DT4067","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"69","cn":"DT4068","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"70","cn":"DT4070","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"71","cn":"DT4092","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"72","cn":"DT4093","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"73","cn":"DT4159","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"74","cn":"DT4172","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"75","cn":"DT4185","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"76","cn":"DT4208","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"77","cn":"DT4223","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"78","cn":"DT4256","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"79","cn":"DT4277","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"80","cn":"DT4290","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"81","cn":"DT4291","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"82","cn":"DT4308","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"83","cn":"DT4309","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"84","cn":"DT4330","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"85","cn":"DT4332","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"86","cn":"DT4352","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"87","cn":"DT4355","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"88","cn":"DT4356","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"89","cn":"DT4357","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"90","cn":"DT4358","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"91","cn":"DT4361","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"92","cn":"DT4364","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"93","cn":"DT4366","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"94","cn":"DT4367","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"95","cn":"DT4368","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"96","cn":"DT4379","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"97","cn":"DT4381","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"98","cn":"DT4385","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"99","cn":"DT4418","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"100","cn":"DT4421","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"101","cn":"DT4430","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"102","cn":"DT4495","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"103","cn":"DT4539","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"104","cn":"DT4541","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"105","cn":"DT4544","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"106","cn":"DT4568","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"107","cn":"DT4585","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"108","cn":"DT4587","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"109","cn":"DT4594","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"110","cn":"DT4600","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"111","cn":"DT4603","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"112","cn":"DT4688","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"113","cn":"DT4729","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"114","cn":"DT4751","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"115","cn":"DT4752","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"116","cn":"DT4754","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"117","cn":"DT4756","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"118","cn":"DT4757","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"119","cn":"DT4758","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"120","cn":"DT4760","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"121","cn":"DT4761","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"122","cn":"DT4762","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"123","cn":"DT4767","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"124","cn":"DT4768","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"125","cn":"DT4769","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"126","cn":"DT4770","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"127","cn":"DT4781","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"128","cn":"DT4783","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"129","cn":"DT4784","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"130","cn":"DT4785","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"131","cn":"DT4830","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"132","cn":"DT4831","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"133","cn":"DT4833","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"134","cn":"DT4835","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"135","cn":"DT4837","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"136","cn":"DT4843","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"137","cn":"DT4872","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"138","cn":"DT4874","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"139","cn":"DT4875","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"140","cn":"DT4877","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"141","cn":"DT4878","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"142","cn":"DT4904","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"143","cn":"DT4905","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"144","cn":"DT4925","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"145","cn":"DT4940","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"146","cn":"DT4961","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"147","cn":"DT4967","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"148","cn":"DT4988","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"149","cn":"DT4997","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"150","cn":"DT4998","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"151","cn":"DT4999","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"152","cn":"DT5006","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"153","cn":"DT5014","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"154","cn":"DT5017","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"155","cn":"DT5025","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"156","cn":"DT5034","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"157","cn":"DT5036","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"158","cn":"DT5042","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"159","cn":"DT5043","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"},
-{"no":"160","cn":"DT5044","lokasi":"KANGURU","status_antena":"DONE","status_cpe":"BELUM"},
-{"no":"161","cn":"DT5067","lokasi":"KANGURU","status_antena":"BELUM","status_cpe":"BELUM"}
+    {
+        "no": "1",
+        "cn": "DT3209",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "2",
+        "cn": "DT3217",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "3",
+        "cn": "DT3242",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "4",
+        "cn": "DT3286",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "5",
+        "cn": "DT3388",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "6",
+        "cn": "DT3413",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "7",
+        "cn": "DT3415",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "8",
+        "cn": "DT3422",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "9",
+        "cn": "DT3438",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "10",
+        "cn": "DT3439",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "11",
+        "cn": "DT3441",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "12",
+        "cn": "DT3461",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "13",
+        "cn": "DT3465",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "14",
+        "cn": "DT3466",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "15",
+        "cn": "DT3483",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "16",
+        "cn": "DT3511",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "17",
+        "cn": "DT3539",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "18",
+        "cn": "DT3541",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "19",
+        "cn": "DT3602",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "20",
+        "cn": "DT3637",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "21",
+        "cn": "DT3642",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "22",
+        "cn": "DT3681",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "23",
+        "cn": "DT3685",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "24",
+        "cn": "DT3713",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "25",
+        "cn": "DT3718",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "26",
+        "cn": "DT3722",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "27",
+        "cn": "DT3728",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "28",
+        "cn": "DT3731",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "29",
+        "cn": "DT3743",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "30",
+        "cn": "DT3750",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "31",
+        "cn": "DT3758",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "32",
+        "cn": "DT3759",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "33",
+        "cn": "DT3766",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "34",
+        "cn": "DT3779",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "35",
+        "cn": "DT3781",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "36",
+        "cn": "DT3784",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "37",
+        "cn": "DT3788",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "38",
+        "cn": "DT3791",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "39",
+        "cn": "DT3798",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "40",
+        "cn": "DT3801",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "41",
+        "cn": "DT3815",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "42",
+        "cn": "DT3835",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "43",
+        "cn": "DT3850",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "44",
+        "cn": "DT3871",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "45",
+        "cn": "DT3873",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "46",
+        "cn": "DT3905",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "47",
+        "cn": "DT3907",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "48",
+        "cn": "DT3913",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "49",
+        "cn": "DT3935",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "50",
+        "cn": "DT3944",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "51",
+        "cn": "DT3946",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "52",
+        "cn": "DT3947",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "53",
+        "cn": "DT3997",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "54",
+        "cn": "DT4000",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "55",
+        "cn": "DT4002",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "56",
+        "cn": "DT4011",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "57",
+        "cn": "DT4016",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "58",
+        "cn": "DT4018",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "59",
+        "cn": "DT4062",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "60",
+        "cn": "DT4076",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "61",
+        "cn": "DT4085",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "62",
+        "cn": "DT4095",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "63",
+        "cn": "DT4107",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "64",
+        "cn": "DT4111",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "65",
+        "cn": "DT4205",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "66",
+        "cn": "DT4207",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "67",
+        "cn": "DT4228",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "68",
+        "cn": "DT4250",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "69",
+        "cn": "DT4294",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "70",
+        "cn": "DT4313",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "71",
+        "cn": "DT4315",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "72",
+        "cn": "DT4326",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "73",
+        "cn": "DT4328",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "74",
+        "cn": "DT4329",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "75",
+        "cn": "DT4360",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "76",
+        "cn": "DT4362",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "77",
+        "cn": "DT4363",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "78",
+        "cn": "DT4419",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "79",
+        "cn": "DT4497",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "80",
+        "cn": "DT4498",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "81",
+        "cn": "DT4586",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "82",
+        "cn": "DT4588",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "83",
+        "cn": "DT4595",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "84",
+        "cn": "DT4601",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "85",
+        "cn": "DT4604",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "86",
+        "cn": "DT4728",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "87",
+        "cn": "DT4753",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "88",
+        "cn": "DT4782",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "89",
+        "cn": "DT4796",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "90",
+        "cn": "DT4797",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "91",
+        "cn": "DT4798",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "92",
+        "cn": "DT4832",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "93",
+        "cn": "DT4838",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "94",
+        "cn": "DT4842",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "95",
+        "cn": "DT4845",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "96",
+        "cn": "DT4846",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "97",
+        "cn": "DT4847",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "98",
+        "cn": "DT4857",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "99",
+        "cn": "DT4858",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "100",
+        "cn": "DT4873",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "101",
+        "cn": "DT4907",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "102",
+        "cn": "DT4912",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "103",
+        "cn": "DT4914",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "104",
+        "cn": "DT4962",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "105",
+        "cn": "DT4964",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "106",
+        "cn": "DT4983",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "107",
+        "cn": "DT4984",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "108",
+        "cn": "DT5000",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "109",
+        "cn": "DT5001",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "110",
+        "cn": "DT5002",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "111",
+        "cn": "DT5003",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "112",
+        "cn": "DT5007",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "113",
+        "cn": "DT5008",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "114",
+        "cn": "DT5009",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "115",
+        "cn": "DT5013",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "116",
+        "cn": "DT5018",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "117",
+        "cn": "DT5019",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "118",
+        "cn": "DT5029",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "119",
+        "cn": "DT5030",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "120",
+        "cn": "DT5033",
+        "lokasi": "PEDAYAK",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "121",
+        "cn": "DT5035",
+        "lokasi": "PEDAYAK",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "122",
+        "cn": "DT5243",
+        "lokasi": "PEDAYAK"
+    },
+    {
+        "no": "123",
+        "cn": "DT5244",
+        "lokasi": "PEDAYAK"
+    },
+    {
+        "no": "1",
+        "cn": "DT3219",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "2",
+        "cn": "DT3371",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "3",
+        "cn": "DT3484",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "4",
+        "cn": "DT3596",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "5",
+        "cn": "DT3636",
+        "lokasi": "PELIKAN",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "6",
+        "cn": "DT3744",
+        "lokasi": "PELIKAN",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "7",
+        "cn": "DT3755",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "8",
+        "cn": "DT3778",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "9",
+        "cn": "DT3822",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "10",
+        "cn": "DT3870",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "11",
+        "cn": "DT3876",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "12",
+        "cn": "DT3881",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "13",
+        "cn": "DT3914",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "14",
+        "cn": "DT3951",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "15",
+        "cn": "DT3966",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "16",
+        "cn": "DT4066",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "17",
+        "cn": "DT4097",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "18",
+        "cn": "DT4138",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "19",
+        "cn": "DT4213",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "20",
+        "cn": "DT4292",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "21",
+        "cn": "DT4306",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "22",
+        "cn": "DT4310",
+        "lokasi": "PELIKAN",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "23",
+        "cn": "DT4312",
+        "lokasi": "PELIKAN",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "24",
+        "cn": "DT4346",
+        "lokasi": "PELIKAN",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "25",
+        "cn": "DT4359",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "26",
+        "cn": "DT4380",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "27",
+        "cn": "DT4382",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "28",
+        "cn": "DT4417",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "29",
+        "cn": "DT4592",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "30",
+        "cn": "DT4596",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "31",
+        "cn": "DT4599",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "32",
+        "cn": "DT4602",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "33",
+        "cn": "DT4750",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "34",
+        "cn": "DT4759",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "35",
+        "cn": "DT4799",
+        "lokasi": "PELIKAN",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "36",
+        "cn": "DT4800",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "37",
+        "cn": "DT4801",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "38",
+        "cn": "DT4817",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "39",
+        "cn": "DT4819",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "40",
+        "cn": "DT4836",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "41",
+        "cn": "DT4844",
+        "lokasi": "PELIKAN",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "42",
+        "cn": "DT4856",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "43",
+        "cn": "DT4859",
+        "lokasi": "PELIKAN",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "44",
+        "cn": "DT4876",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "45",
+        "cn": "DT4941",
+        "lokasi": "PELIKAN",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "46",
+        "cn": "DT4942",
+        "lokasi": "PELIKAN",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "47",
+        "cn": "DT4985",
+        "lokasi": "PELIKAN",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "48",
+        "cn": "DT5010",
+        "lokasi": "PELIKAN",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "49",
+        "cn": "DT5026",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "50",
+        "cn": "DT5028",
+        "lokasi": "PELIKAN",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "51",
+        "cn": "DT5031",
+        "lokasi": "PELIKAN",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "1",
+        "cn": "DT3154",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "2",
+        "cn": "DT3221",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "3",
+        "cn": "DT3222",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "4",
+        "cn": "DT3228",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "5",
+        "cn": "DT3283",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "6",
+        "cn": "DT3292",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "7",
+        "cn": "DT3440",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "8",
+        "cn": "DT3464",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "9",
+        "cn": "DT3467",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "10",
+        "cn": "DT3497",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "11",
+        "cn": "DT3499",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "12",
+        "cn": "DT3562",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "13",
+        "cn": "DT3570",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "14",
+        "cn": "DT3582",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "15",
+        "cn": "DT3583",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "16",
+        "cn": "DT3586",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "17",
+        "cn": "DT3633",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "18",
+        "cn": "DT3641",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "19",
+        "cn": "DT3645",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "20",
+        "cn": "DT3684",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "21",
+        "cn": "DT3723",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "22",
+        "cn": "DT3724",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "23",
+        "cn": "DT3730",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "24",
+        "cn": "DT3749",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "25",
+        "cn": "DT3756",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "26",
+        "cn": "DT3757",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "27",
+        "cn": "DT3762",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "28",
+        "cn": "DT3771",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "29",
+        "cn": "DT3772",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "30",
+        "cn": "DT3775",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "31",
+        "cn": "DT3777",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "32",
+        "cn": "DT3780",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "33",
+        "cn": "DT3789",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "34",
+        "cn": "DT3790",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "35",
+        "cn": "DT3797",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "36",
+        "cn": "DT3806",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "37",
+        "cn": "DT3807",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "38",
+        "cn": "DT3809",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "39",
+        "cn": "DT3811",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "40",
+        "cn": "DT3824",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "41",
+        "cn": "DT3840",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "42",
+        "cn": "DT3872",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "43",
+        "cn": "DT3874",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "44",
+        "cn": "DT3875",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "45",
+        "cn": "DT3877",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "46",
+        "cn": "DT3878",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "47",
+        "cn": "DT3903",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "48",
+        "cn": "DT3904",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "49",
+        "cn": "DT3906",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "50",
+        "cn": "DT3916",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "51",
+        "cn": "DT3931",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "52",
+        "cn": "DT3932",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "53",
+        "cn": "DT3937",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "54",
+        "cn": "DT3938",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "55",
+        "cn": "DT3940",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "56",
+        "cn": "DT3943",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "57",
+        "cn": "DT3959",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "58",
+        "cn": "DT3960",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "59",
+        "cn": "DT3961",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "60",
+        "cn": "DT3998",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "61",
+        "cn": "DT4019",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "62",
+        "cn": "DT4030",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "63",
+        "cn": "DT4040",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "64",
+        "cn": "DT4060",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "65",
+        "cn": "DT4061",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "66",
+        "cn": "DT4064",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "67",
+        "cn": "DT4065",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "68",
+        "cn": "DT4067",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "69",
+        "cn": "DT4068",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "70",
+        "cn": "DT4070",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "71",
+        "cn": "DT4092",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "72",
+        "cn": "DT4093",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "73",
+        "cn": "DT4159",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "74",
+        "cn": "DT4172",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "75",
+        "cn": "DT4185",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "76",
+        "cn": "DT4208",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "77",
+        "cn": "DT4223",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "78",
+        "cn": "DT4256",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "79",
+        "cn": "DT4277",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "80",
+        "cn": "DT4290",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "81",
+        "cn": "DT4291",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "82",
+        "cn": "DT4308",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "83",
+        "cn": "DT4309",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "84",
+        "cn": "DT4330",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "85",
+        "cn": "DT4332",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "86",
+        "cn": "DT4352",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "87",
+        "cn": "DT4355",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "88",
+        "cn": "DT4356",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "89",
+        "cn": "DT4357",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "90",
+        "cn": "DT4358",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "91",
+        "cn": "DT4361",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "92",
+        "cn": "DT4364",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "93",
+        "cn": "DT4366",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "94",
+        "cn": "DT4367",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "95",
+        "cn": "DT4368",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "96",
+        "cn": "DT4379",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "97",
+        "cn": "DT4381",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "98",
+        "cn": "DT4385",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "99",
+        "cn": "DT4418",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "100",
+        "cn": "DT4421",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "101",
+        "cn": "DT4430",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "102",
+        "cn": "DT4495",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "103",
+        "cn": "DT4539",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "104",
+        "cn": "DT4541",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "105",
+        "cn": "DT4544",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "106",
+        "cn": "DT4568",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "107",
+        "cn": "DT4585",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "108",
+        "cn": "DT4587",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "109",
+        "cn": "DT4594",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "110",
+        "cn": "DT4600",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "111",
+        "cn": "DT4603",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "112",
+        "cn": "DT4688",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "113",
+        "cn": "DT4729",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "114",
+        "cn": "DT4751",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "115",
+        "cn": "DT4752",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "116",
+        "cn": "DT4754",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "117",
+        "cn": "DT4756",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "118",
+        "cn": "DT4757",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "119",
+        "cn": "DT4758",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "120",
+        "cn": "DT4760",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "121",
+        "cn": "DT4761",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "122",
+        "cn": "DT4762",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "123",
+        "cn": "DT4767",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "124",
+        "cn": "DT4768",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "125",
+        "cn": "DT4769",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "126",
+        "cn": "DT4770",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "127",
+        "cn": "DT4781",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "128",
+        "cn": "DT4783",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "129",
+        "cn": "DT4784",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "130",
+        "cn": "DT4785",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "131",
+        "cn": "DT4830",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "132",
+        "cn": "DT4831",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "133",
+        "cn": "DT4833",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "134",
+        "cn": "DT4835",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "135",
+        "cn": "DT4837",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "136",
+        "cn": "DT4843",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "137",
+        "cn": "DT4872",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "138",
+        "cn": "DT4874",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "139",
+        "cn": "DT4875",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "140",
+        "cn": "DT4877",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "141",
+        "cn": "DT4878",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "142",
+        "cn": "DT4904",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "143",
+        "cn": "DT4905",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "144",
+        "cn": "DT4925",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "145",
+        "cn": "DT4940",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "146",
+        "cn": "DT4961",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "147",
+        "cn": "DT4967",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "148",
+        "cn": "DT4988",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "149",
+        "cn": "DT4997",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "150",
+        "cn": "DT4998",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "151",
+        "cn": "DT4999",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "152",
+        "cn": "DT5006",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "153",
+        "cn": "DT5014",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "154",
+        "cn": "DT5017",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "155",
+        "cn": "DT5025",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "156",
+        "cn": "DT5034",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "157",
+        "cn": "DT5036",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "158",
+        "cn": "DT5042",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "159",
+        "cn": "DT5043",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "160",
+        "cn": "DT5044",
+        "lokasi": "KANGURU",
+        "status_antena": "DONE",
+        "status_cpe": "BELUM"
+    },
+    {
+        "no": "161",
+        "cn": "DT5067",
+        "lokasi": "KANGURU",
+        "status_antena": "BELUM",
+        "status_cpe": "BELUM"
+    }
 ]
