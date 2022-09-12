@@ -14,6 +14,7 @@ const client = new Client({
 const database = fs.readFileSync('db.json')
 const data = JSON.parse(database)
 const prefix = '!'
+const exportXlslFile = 'output_export.xlsx'
 
 const width = 524;   // define width and height of canvas
 const height = 524;
@@ -177,6 +178,16 @@ function sleep(ms) {
   });
 }
 
+function convertJsonToXlsx(dataJson) {
+    var workbook = aspose.cells.Workbook()
+    var worksheet = workbook.getWorksheets().get(0)
+    var layoutOptions = aspose.cells.JsonLayoutOptions()
+
+    layoutOptions.setArrayAsTable(true)
+    aspose.cells.JsonUtility.importData(dataJson, worksheet.getCells(), 0, 0, layoutOptions)
+    workbook.save(exportXlslFile, aspose.cells.SaveFormat.AUTO)
+}
+
 const job = schedule.scheduleJob('0 19 * * 1-6', function(){
     let msg = 'Daily list terinstall hari ini\n\n'
     if (list_daily.length == 0) {
@@ -279,6 +290,12 @@ client.on('message', async message => {
              const media = new MessageMedia('image/png', base64Image);
              message.reply(media)
          })
+    }
+
+    if (cmd == '!export') {
+        const media = new MessageMedia.fromFilePath('./' + exportXlslFile);
+        await message.reply(media)
+        fs.unlinkSync('./' + exportXlslFile)
     }
 
 })
