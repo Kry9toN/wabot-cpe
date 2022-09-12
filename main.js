@@ -59,6 +59,16 @@ function countbelum(value) {
     return hasil
 }
 
+function writeFile(data) {
+    fs.writeFile(database, JSON.stringify(data), 'utf8', function (err) {
+        if (err) {
+            console.error("An error occured while writing JSON Object to File.");
+            return console.error(err);
+        }
+        console.log("JSON file has been saved.");
+    });
+}
+
 const createImage = async () => {
     const pdykAnt = countantena('PEDAYAK')
     const kgrAnt = countantena('KANGURU')
@@ -239,6 +249,7 @@ client.on('message', async message => {
             changeValue('antena', agr2.toUpperCase(), search(agr1))
             message.reply('Data berhasil di update✅.')
             list_daily.push(`Antena ${data[index].cn}`)
+            writeFile(data)
         } catch(err) {
             return message.reply(`Terjadi error!!\nLog: ${err}`)
         }
@@ -251,6 +262,7 @@ client.on('message', async message => {
             changeValue('cpe', agr2.toUpperCase(), search(agr1))
             message.reply('Data berhasil di update✅.')
             list_daily.push(`CPE ${data[index].cn}`)
+            writeFile(data)
         } catch(err) {
             return message.reply(`Terjadi error!!\nLog: ${err}`)
         }
