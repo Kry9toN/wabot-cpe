@@ -1,7 +1,8 @@
 const qrcode = require('qrcode-terminal')
 const fetch = require('node-fetch')
-const fs = require('fs');
-const xlsx = require(‘xlsx’);
+const fs = require('fs')
+const xlsx = require('xlsx')
+const schedule = require('node-schedule');
 
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const { MessageMedia } = require('whatsapp-web.js');
@@ -18,6 +19,8 @@ const width = 524;   // define width and height of canvas
 const height = 524;
 const backgroundColour = 'white'
 const canvasRenderService = new ChartJSNodeCanvas({width, height, backgroundColour});
+
+let list_daily = []
 
 function countantena(value) {
     let hasil = 0
@@ -138,13 +141,13 @@ function changeValue(typedata, value, index) {
     }
 }
 
-function convertExcelFileToJsonUsingXlsx() {
+function convertExcelFileToJsonUsingXlsx(dataStream) {
     // Read the file using pathname
-    const file = xlsx.readFile('./tempexcel.xlsx');
+    const file = xlsx.read(dataStream);
     // Grab the sheet info from the file
     const sheetNames = file.SheetNames;
     const totalSheets = sheetNames.length;
-    // Variable to store our data 
+    // Variable to store our data
     let parsedData = [];
     // Loop through sheets
     for (let i = 0; i < totalSheets; i++) {
@@ -155,9 +158,28 @@ function convertExcelFileToJsonUsingXlsx() {
         // Add the sheet's json to our data array
         parsedData.push(...tempData);
     }
- // call a function to save the data in a json file
- return parsedData;
+    return parsedData;
 }
+
+function sleep(ms) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
+}
+
+const job = schedule.scheduleJob('0 19 * * 1-6', function(){
+    let msg = 'Daily list terinstall hari ini\n\n'
+    if (list_daily.length == 0) {
+        msg += 'Tidak ada pemasangan hari ini'
+        return client.sendMessage('120363043177317693@g.us', msg)
+    }
+    for (let i = 0; i < list_daily.length; i++) {
+        msg += `🔹 *${list_daily[i]}*\n`
+    }
+    msg += `\nTotal: ${list_daily.length}`
+    client.sendMessage('120363043177317693@g.us', msg)
+    list_daily = []
+});
 
 client.on('qr', qr => {
     qrcode.generate(qr, {small: true})
@@ -167,12 +189,40 @@ client.on('ready', () => {
     console.log('Bot is ready!')
 })
 
-client.on('message', message => {
+client.on('message', async message => {
     console.info(`[!] Recived message "${message.body}" from ${message.from}`)
     const messageSplit = message.body.split(" ")
     const cmd = messageSplit[0]
     const agr1 = messageSplit[1]
     const agr2 = messageSplit[2]
+
+    // Inline cmd
+    if (message.hasMedia) {
+        const media = await message.downloadMedia()
+        const mediaData = media.data
+        const exceljson = convertExcelFileToJsonUsingXlsx(mediaData)
+        if (media.filename.includes('.xlsx')) {
+            let msg = `📝 List unit belum terinstall filtered by database\n\nData dari: ${media.filename}\n\n`
+            let no = 1
+            for (let i = 0; i < exceljson.length; i++) {
+                const dataDT = search(exceljson[i].__EMPTY_1)
+                let noCount = false
+                if (dataDT && data[dataDT].status_antena.includes('BELUM')) {
+                    if (!noCount) msg += `${no}:\n`
+                    msg += `  📡 *${exceljson[i].__EMPTY_1}*\n`
+                    noCount = true
+                }
+                if (dataDT && data[dataDT].status_cpe.includes('BELUM')) {
+                    if (!noCount) msg += `${no}:\n`
+                    msg += `  📟 *${exceljson[i].__EMPTY_1}*\n`
+                    noCount = true
+                }
+                if (noCount) no += 1
+            }
+            msg += '\nKeterangan:\n📡: Antena\n📟: CPE'
+            message.reply(msg)
+        }
+    }
 
     if (!message.body.startsWith(prefix)) return
 
@@ -188,6 +238,7 @@ client.on('message', message => {
         try {
             changeValue('antena', agr2.toUpperCase(), search(agr1))
             message.reply('Data berhasil di update✅.')
+            list_daily.push(`Antena ${data[index].cn}`)
         } catch(err) {
             return message.reply(`Terjadi error!!\nLog: ${err}`)
         }
@@ -198,6 +249,8 @@ client.on('message', message => {
         if (agr2 != 'done' && agr2 != 'belum') return message.reply('🚨 Eitss, mau ngapain?')
         try {
             changeValue('cpe', agr2.toUpperCase(), search(agr1))
+            message.reply('Data berhasil di update✅.')
+            list_daily.push(`CPE ${data[index].cn}`)
         } catch(err) {
             return message.reply(`Terjadi error!!\nLog: ${err}`)
         }
@@ -216,17 +269,6 @@ client.on('message', message => {
          })
     }
 
-    if (message.hasMedia) {
-        message.downloadMedia().then((media) => {
-            if (media.filename.includes('xlsx')) {
-                const base64 = media.replace(/^data:image\/png;base64,/, '')
-                fs.writeFile('tempexcel.xlsx', base64, {encoding: 'base64'}, function(err) {
-                    const exceljson = convertExcelFileToJsonUsingXlsx()
-                    message.reply(exceljson)
-                });
-            }
-        })
-    }
 })
 
 client.initialize()
